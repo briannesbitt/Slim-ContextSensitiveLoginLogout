@@ -10,7 +10,7 @@ In response to http://help.slimframework.com/discussions/questions/341-loginlogo
 
 Launch browser to http://127.0.0.1
 
-This application uses [route middleware](http://www.slimframework.com/documentation/stable#routing-middleware) for authentication and a [slim.before.dispatch hook](http://www.slimframework.com/documentation/stable#hooks-default) to set a `$user` variable for all views if in fact the user is logged in.
+This application uses [route middleware](http://docs.slimframework.com/pages/routing-middleware/) for authentication and a [slim.before.dispatch hook](http://docs.slimframework.com/pages/hooks-overview/) to set a `$user` variable for all views if in fact the user is logged in.
 
 ## Public pages
 

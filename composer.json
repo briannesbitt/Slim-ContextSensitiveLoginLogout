@@ -1,5 +1,5 @@
 {
     "require": {
-        "slim/slim": "1.6.*"
+        "slim/slim": "2.*"
     }
 }

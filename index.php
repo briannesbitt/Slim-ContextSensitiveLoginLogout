@@ -1,9 +1,9 @@
 <?php
 require 'vendor/autoload.php';
 
-$app = new Slim();
+$app = new \Slim\Slim();
 
-$app->add(new Slim_Middleware_SessionCookie(array('secret' => 'myappsecret')));
+$app->add(new \Slim\Middleware\SessionCookie(array('secret' => 'myappsecret')));
 
 $authenticate = function ($app) {
     return function () use ($app) {
